@@ -13,28 +13,34 @@ export default {
             options: ['primary', 'secondary','tertiaty'],
             control: { type: 'radio' },
           },
+          disabled: { control: {type: 'boolean'} }
     },
     args: { onclick: fn() },
 }
 
 export const Button1 = {
     args:{
-        //background: '#9532b9',
+
         label: 'Вариант 1',
         variant: 'primary'
     }
 }
 export const Button2 = {
     args:{
-        //background: '#9532b9',
         label: 'Вариант 2',
         variant: 'secondary'
     }
 }
 export const Button3 = {
     args:{
-        //background: '#9532b9',
         label: 'Вариант 3',
         variant: 'tertiary'
+    }
+}
+export const Button4 = {
+    args:{
+        label: 'Вариант 4',
+        variant: 'primary',
+        disabled: true
     }
 }
