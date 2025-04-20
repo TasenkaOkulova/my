@@ -6,9 +6,9 @@
 
 }
 .primary {
-    background: #730AAF;
+    background: var(--button-background-color);
     border: 1px solid #730AAF;
-    color: #FFFFFF;
+    color: var(--button-label-color);
 
     &:hover{
         box-shadow: 0px 5px 10px rgb(161, 91, 211);

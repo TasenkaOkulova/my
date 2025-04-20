@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lightTheme {
+    height: 100%;
+    --background-color: #f2c8ff;
+    --button-background-color: #412948;
+    --button-label-color: #f2c8ff;
+}
+
+.darkTheme {
+    height: 100%;
+    --background-color: #412948;
+    --button-background-color: #ffffff;
+    --button-label-color:#412948;
+}
+body {
+    height: 100vh;
+}
+
+.main {
+    height: 100%;
+    padding: 20px;
+    background: var(--background-color);
+}
